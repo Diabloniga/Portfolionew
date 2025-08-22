@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <section class="hero">
+      <h1>My Portfolio</h1>
+
+      <div class="photo-wrap">
+        <div class="gif-ring" aria-hidden="true"></div>
+        <img class="avatar" src="WhatsApp Image 2025-08-22 at 10.40.14 PM.jpeg" alt="Anime">
+      </div>
+
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </section>
+  </header>
+
+  <section id="about">
+    <h1>About Me</h1>
+    <canvas id="bubbleCanvas" width="800" height="200"></canvas>
+    <p>Hello! I’m <b><span class="bubble-name">Aditya Bisht</span></b>, a Computer Science student passionate about coding, web development, and problem-solving. I enjoy creating projects that combine reality into virtual reality.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="flip">
+        <div class="flip-inner">
+          <div class="flip-face flip-front">
+            <h3>C / C++</h3>
+            <p>Low-level programming</p>
+          </div>
+          <div class="flip-face flip-back">
+            <h3>Details</h3>
+            <p>Pointers, Data Structures, File Handling</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip">
+        <div class="flip-inner">
+          <div class="flip-face flip-front">
+            <h3>Python</h3>
+            <p>Scripting, automation</p>
+          </div>
+          <div class="flip-face flip-back">
+            <h3>Details</h3>
+            <p>Libraries: Numpy, Pygame (basics)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip">
+        <div class="flip-inner">
+          <div class="flip-face flip-front">
+            <h3>HTML, CSS, JS</h3>
+            <p>Responsive websites</p>
+          </div>
+          <div class="flip-face flip-back">
+            <h3>Details</h3>
+            <p>React, TensorFlow (basics)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="flip">
+        <div class="flip-inner">
+          <div class="flip-face flip-front">
+            <h3>Food Management System</h3>
+            <p>A C program for managing food items, orders, and customer accounts.</p>
+          </div>
+          <div class="flip-face flip-back">
+            <h3>More Info</h3>
+            <p>Includes owner & customer login, password recovery, and dynamic memory. Built with C and file handling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span>Aditya Bisht</span> | Phone: +91 6395295434</p>
+  </footer>
+
+  <script src="back.js"></script>
+</body>
+</html>
