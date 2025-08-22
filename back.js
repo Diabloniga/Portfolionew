@@ -130,3 +130,14 @@ if (wrap) {
     wrap.style.transform = 'none';
   });
 }
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth * 0.9; 
+  canvas.height = 200; 
+}
+resizeCanvas();
+
+window.addEventListener("resize", () => {
+  resizeCanvas();
+  initParticles();
+})
