@@ -278,3 +278,35 @@ footer p span {
   margin: 0 auto;
 }
 
+.about-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #7c5cff;
+  text-shadow: 0 0 10px rgba(124,92,255,0.6);
+}
+
+.canvas-wrap {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+
+.about-text {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.about-text .highlight {
+  color: #7c5cff;
+  font-weight: bold;
+}
