@@ -58,8 +58,12 @@ function animate() {
 
 canvas.addEventListener("mousemove", e => {
   const rect = canvas.getBoundingClientRect();
-  const mx = e.clientX - rect.left;
-  const my = e.clientY - rect.top;
+
+  const scaleX = canvas.width / rect.width;
+  const scaleY = canvas.height / rect.height;
+
+  const mx = (e.clientX - rect.left) * scaleX;
+  const my = (e.clientY - rect.top) * scaleY;
 
   for (let p of particles) {
     const dx = p.x - mx;
@@ -141,3 +145,4 @@ window.addEventListener("resize", () => {
   resizeCanvas();
   initParticles();
 })
+
